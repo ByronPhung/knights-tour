@@ -1,6 +1,12 @@
 #Knight's Tour v1.0.0
 
-This software implementation utilizes Warnsdorff's rule to solve the knight's tour, which is a puzzle involving the movement of a knight on a chessboard such that the knight visits every square only once.
+The current software implementation utilizes Warnsdorff's Rule to solve the knight's tour, which is a puzzle involving the movement of a knight on a chessboard such that the knight visits every square only once.
+
+Warnsdorff's Rule is practical but far from perfect; it involves checking the next possible movements, determining the number of possible movements of those movements, and choosing the move that contains the least possibilities. The main rationale is that because the one rule of a knight's tour is to visit squares only once, choosing the move with the least possible moves decreases the chance of repeating any squares.
+
+The Warnsdorff's Rule heuristic is static, meaning that the same path will always be taken for whichever starting position. Unfortunately, this means that Warnsdorff's Rule cannot solve tours that end prematurely. Therefore, this opens the opportunity to improve the knight's tour software solution via machine learning that can learn from failures and slightly adjust to take different paths.
+
+Regardless, this software implementation is a basic introduction to utilizing a common heuristic and is an ample solution to beginner and intermediate programmers alike.
 
 ##Usage
 
