@@ -8,16 +8,15 @@ The Warnsdorff's Rule heuristic is static, meaning that the same path will alway
 
 Regardless, this software implementation is a basic introduction to utilizing a common heuristic and is an ample solution to beginner and intermediate programmers alike.
 
-##Usage
 
-###Python 
+##Requirements
 
-####Requirements
-
-To start using the Python implementation, you will need the following:
+To run the implementation, you will need the following:
 * [Python 3](https://www.python.org/downloads/)
 
-####Execution
+##Execution
+
+###Via Command Line
 
 To run using the command line:
 
@@ -43,6 +42,8 @@ To run using the command line:
    8 43 26 23  6  3 36 21 
   27 24  7 44 37 22  5  2 
   ```
+  
+###Via IDLE
 
 To run using IDLE:
 
@@ -71,7 +72,3 @@ To run using IDLE:
   42 55 44 15 40 19  2 17 
   45 14 41 56 51 16 39 20 
   ```
-
-###C++
-
-The C++ implementation has been deprecrated. Please use the Python implementation instead.
