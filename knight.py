@@ -1,3 +1,15 @@
+#===============================================================================
+#  File        : knight.py
+#  Project     : Knight's Tour
+#  Description : Knight class for knight's tour Python implementation.
+#  Company     : Cal Poly Pomona
+#  Engineer    : Byron Phung
+#===============================================================================
+
+#===============================================================================
+#  Class Definition
+#===============================================================================
+
 class Knight(object):
     """A class that defines a Knight object to carry out a Knight's Tour."""
     def __init__(self, x, y):

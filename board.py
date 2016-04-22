@@ -1,8 +1,19 @@
+#===============================================================================
+#  File        : board.py
+#  Project     : Knight's Tour
+#  Description : Board class for knight's tour Python implementation.
+#  Company     : Cal Poly Pomona
+#  Engineer    : Byron Phung
+#===============================================================================
+
+#===============================================================================
+#  Class Definition
+#===============================================================================
+
 class Board(object):
     """A class that creates a virtual board to store Knight positions for a
     Knight's Tour.
-    """
- 
+    """ 
     def __init__(self, size):
         self.size = size
         self.board = [([0] * size) for row in range(size)]

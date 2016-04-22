@@ -1,5 +1,22 @@
+#===============================================================================
+#  File        : main.py
+#  Project     : Knight's Tour
+#  Description : Python implementation to solve a knight's tour using
+#                Warnsdorff's Rule.
+#  Company     : Cal Poly Pomona
+#  Engineer    : Byron Phung
+#===============================================================================
+
+#===============================================================================
+#  Libraries
+#===============================================================================
+
 from knight import Knight
 from board import Board
+
+#===============================================================================
+#  Constants
+#===============================================================================
 
 # Define the board size and use it to determine the maximum moves.
 BOARD_SIZE = 8
@@ -8,6 +25,10 @@ MAX_MOVES = BOARD_SIZE**2
 # Define the possible combinations of Knight moves.
 MOVE_X = [-2, -1, 1, 2, 2, 1, -1, -2]
 MOVE_Y = [1, 2, 2, 1, -1, -2, -2, -1]
+
+#===============================================================================
+#  Functions
+#===============================================================================
 
 def main():
     """Executes the main application.
@@ -144,5 +165,9 @@ def get_idx_smallest_num_exits(num_possibilities, exits):
 
     # Return the index for which there is the smallest number of exits.
     return min_exits_idx
+
+#===============================================================================
+#  Main Execution
+#===============================================================================
 
 main()
