@@ -1,4 +1,4 @@
-#Knight's Tour v1.0.0
+# Knight's Tour v1.0.0
 
 The current software implementation utilizes Warnsdorff's Rule to solve the knight's tour, which is a puzzle involving the movement of a knight on a chessboard such that the knight visits every square only once.
 
@@ -9,14 +9,14 @@ The Warnsdorff's Rule heuristic is static, meaning that the same path will alway
 Regardless, this software implementation is a basic introduction to utilizing a common heuristic and is an ample solution to beginner and intermediate programmers alike.
 
 
-##Requirements
+## Requirements
 
 To run the implementation, you will need the following:
 * [Python 3](https://www.python.org/downloads/)
 
-##Execution
+## Execution
 
-###Via Command Line
+### Via Command Line
 
 To run using the command line:
 
@@ -43,7 +43,7 @@ To run using the command line:
   27 24  7 44 37 22  5  2 
   ```
   
-###Via IDLE
+### Via IDLE
 
 To run using IDLE:
 
